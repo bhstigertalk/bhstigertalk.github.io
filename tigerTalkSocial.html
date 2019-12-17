@@ -11,11 +11,11 @@
 	
 }
 .header {
-  background-color: #000000;
-  color: rgb(190,158,99);
+  /*background-color: #000000;*/
+  color: rgb(255,255,255);
   padding: 0px, 10px, 10px;
-  font-family: Trebuchet MS;
-  font-size:90px;
+  font-family: Arial;
+  font-size:110px;
   align:left;
   /*text-align: left;*/
   /*height: 121px;*/
@@ -25,21 +25,21 @@
 }
 .headText {
   height: 50px;
-  background-color: rgb(0,0,0);
-    
+  /*background-color: rgb(0,0,0);*/
 }
 .topnav {
   overflow: hidden;
   background-color: rgb(190,158,99);
-  border-width: 10 px;
-  borderColor: rgb(0,0,0)
+  border-width: medium;
+  borderColor: rgb(0,0,0);
+  width: 100%;
+  
 }
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
   color: rgb(0,0,0);
-  text-align: center;
   padding: 10px 10px 10px;
   text-decoration: none;
   margin:auto;
@@ -73,6 +73,11 @@ body {
 .picture2 { 
 	float: left;
 }
+.headerPic {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
 .navbar {
     background-color: #D9D9D9;
     color: rgb(0,0,255);
@@ -80,7 +85,7 @@ body {
 }
 .title {
     padding: 0px 25px 0px;>
-    float:left;
+    float: left;
 }
 .title2 {
     padding: 0px 25px 0px;>
@@ -90,46 +95,46 @@ body {
     align-items: center;
     font-size: 25px;
     vertical-align: text-top;
-    margin-left: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 10px;
 }    
 .bioTitle {
-    font-size: 60px;
-    width: 500px;
-    border-bottom: 5px solid black;    
+    font-size: 40px;
 }
-.bioSpacer {
-    width: 30px;
-}
-.spacerBottom {
-    height: 100px;
+.underline {
+    font-size: 80px;
+    text-align: center;
 }
 .links {
-    color: rgb(0,0,255);
+    color: blue;
 }
 </style>
 </head>
-
 <body>
 <div class="header">
-    <div class="headText" align="center"><b><em>Tiger Talk</em></b></div>
+	<div style="background-image: url('tiger.jfif');height:100%;">
+		<div class="headText" align="center"><b> T I G E R  T A L K </b></div>
+		<div class="underline">___________________________</div>
+	</div>
 </div>
-    <img class="picture headerPic" src="Mightysquirrel.png" width="150px" height="164px">
+    <img class="picture headerPic" src="tiger.png" ">
 <div class="topnav">
 	<div align="center">
-	        <a href="tigerTalkHome.html"><b>Home</b><a>
+	        <a href="index.html"><b>Home</b><a>
 	        <a href="tigerTalkEpisodes.html"><b>Episodes</b><a>
 	        <a href="tigerTalkSocial.html"><b>Social</b><a>
 	        <a href="tigerTalkSub.html"><b>Subscribe</b><a>
-	    </div>    
+	</div>    
+</div>
+        <p> </p> <p> </p> <p> </p> <p> </p> <p> </p>
+<div class="bio" > 
+    <div class="bioTitle">
+        <strong>Episodes</strong>
+    </div>
+	<div class="links">
+	    Episode 1: Pep Rallies
 	</div>
-<div class="bio"> 
-    
-        <!--<h1 class="bioTitle">
-            //What Is Tiger Talk?<br>
-        </h1>-->
-	<p class="links">
-	    
-	</p>
             
     
 </div>
